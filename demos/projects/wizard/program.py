@@ -16,6 +16,7 @@ DRAGON_TEXT = '''
    '  (__/                                             /                  \\
     '''
 
+# hello
 
 def main():
     print_header()
