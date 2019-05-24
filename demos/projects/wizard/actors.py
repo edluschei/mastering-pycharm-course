@@ -10,6 +10,11 @@ class Creature:
             raise ValueError("level")
 
     def get_defensive_roll(self, modifier=3):
+        """
+
+        :param modifier:
+        :return:
+        """
         roll = random.randint(1, 12)
         return modifier * roll * self.level
 
